@@ -1,0 +1,48 @@
+body{
+    background-color: #4a6c98e7;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+}
+.name-cont{ 
+    text-align: center;
+    margin: 50px;
+}
+.lorem{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px ;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-color: #475b4c; 
+    margin: 10px;
+} 
+.btn{
+    width: 280px;
+    height: 40px;
+    border: none;
+    font-family: 'Oxygen', sans-serif;
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+}
+@media (max-width:716px){
+    form, textarea{
+        
+        justify-content: center; 
+    }
+    input{
+        width: 150px;
+    }
+    .btn{
+        margin: 60px 40px 30px 40px;
+    }
+} 
